@@ -8,5 +8,13 @@ resource "aws_s3_bucket" "docking_bay" {
   tags = {
     Name                 = "Docking Bay"
     Environment          = "Dev"
+    git_commit           = "cf230b4dadee6f4f812170504afe6f7e10129a48"
+    git_file             = "terraform/simple_instance/s3.tf"
+    git_last_modified_at = "2022-06-23 17:37:53"
+    git_last_modified_by = "matt+github@metahertz.co.uk"
+    git_modifiers        = "matt+github"
+    git_org              = "metahertz"
+    git_repo             = "terragoat"
+    yor_trace            = "55ae07bc-8cf3-469f-8b55-46faa9766beb"
   }
 }
